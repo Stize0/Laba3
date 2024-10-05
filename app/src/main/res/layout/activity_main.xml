@@ -22,7 +22,7 @@
         android:layout_below="@id/editTextInput"
         android:text="Обработать"
         tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="377dp" />
+        tools:layout_editor_absoluteY="396dp" />
 
     <TextView
         android:id="@+id/textViewResult"
