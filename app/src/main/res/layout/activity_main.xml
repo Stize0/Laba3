@@ -12,8 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите строку"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="317dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonProcess"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
 
     <Button
         android:id="@+id/buttonProcess"
@@ -21,8 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextInput"
         android:text="Обработать"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="396dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="142dp" />
 
     <TextView
         android:id="@+id/textViewResult"
